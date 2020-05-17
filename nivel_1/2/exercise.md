@@ -1,8 +1,8 @@
 #### Ejercicio #2
 
-1. Usa var para DECLARAR tres VARIABLES. Las variables deben tener scope en el ámbito de paquete.
-No asignar VALORES a las variables. Usa los siguientes IDENTIFICADORES para las variables y asegúrate de que las variables
-son de los siguientes TIPOS (lo quiere decir que pueden almacenar VALORES de ese TIPO).
+1. Usa var para declarar tres variables. Las variables deben tener scope en el ámbito de paquete.
+No asignar valores a las variables. Usa los siguientes identificadores para las variables y asegúrate de que las variables
+son de los siguientes tipos (lo quiere decir que pueden almacenar valores de ese tipo).
     * identificador "x" tipo int.
     * identificador "y" tipo string.
     * identificador "z" tipo bool.

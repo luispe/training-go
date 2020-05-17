@@ -1,4 +1,5 @@
 #### Ejercicio #3
+
 Usando el código del ejercicio anterior
 1. En scope a nivel de paquete, asigna los siguientes valores a las tres variables
     * x: 42
