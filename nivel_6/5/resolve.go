@@ -5,37 +5,37 @@ import (
 	"math"
 )
 
-type square struct {
-	base float64
+type Square struct {
+	Base float64
 }
 
-func (s square) area() float64 {
-	return s.base * s.base
+func (s Square) Area() float64 {
+	return s.Base * s.Base
 }
 
-type circle struct {
-	radius float64
+type Circle struct {
+	Radius float64
 }
 
-type form interface {
-	area() float64
+type Form interface {
+	Area() float64
 }
 
-func info(f form) {
-	fmt.Println(f.area())
+func info(f Form) {
+	fmt.Println(f.Area())
 }
 
-func (c circle) area() float64 {
-	return math.Pi * c.radius * c.radius
+func (c Circle) Area() float64 {
+	return math.Pi * c.Radius * c.Radius
 }
 
 func main() {
-	c := circle{
-		radius: 11.02,
+	c := Circle{
+		Radius: 11.02,
 	}
 
-	sq := square{
-		base: 11,
+	sq := Square{
+		Base: 11,
 	}
 
 	info(c)

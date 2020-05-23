@@ -4,22 +4,22 @@ import (
 	"fmt"
 )
 
-type person struct {
-	name string
+type Person struct {
+	Name string
 }
 
-func (p *person) change(name string) {
-	p.name = name
+func (p *Person) change(name string) {
+	p.Name = name
 }
 
 func main() {
-	p := person{
-		name: "Homer",
+	p := Person{
+		Name: "Homer",
 	}
-	fmt.Println(p.name)
-	fmt.Println(&p.name)
+	fmt.Println(p.Name)
+	fmt.Println(&p.Name)
 
 	p.change("Barnie")
-	fmt.Println(p.name)
-	fmt.Println(&p.name)
+	fmt.Println(p.Name)
+	fmt.Println(&p.Name)
 }
