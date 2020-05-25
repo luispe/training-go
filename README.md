@@ -19,7 +19,7 @@ en 🇬🇧
 
 These exercises are a guide for anyone who wants to introduce into programming, and specifically into language Golang (Go)
 
-These order it's based on the online book created by:
+The order it's based on the online book created by:
 
 [Caleb Doxsey -online book-](http://www.golang-book.com/books/intro/)
  
