@@ -9,7 +9,7 @@ type user struct {
 	FirstName       string
 	LastName        string
 	Age             int
-	FavoritesThinks []string
+	FavoritesThings []string
 }
 
 type SortAge []user
@@ -29,7 +29,7 @@ func main() {
 		FirstName: "Homer",
 		LastName:  "Simpson",
 		Age:       42,
-		FavoritesThinks: []string{
+		FavoritesThings: []string{
 			"Beer",
 			"Donuts",
 			"Sofa",
@@ -40,7 +40,7 @@ func main() {
 		FirstName: "Barnie",
 		LastName:  "Gomez",
 		Age:       39,
-		FavoritesThinks: []string{
+		FavoritesThings: []string{
 			"Beer",
 			"Helicopter",
 			"Bar",
@@ -51,7 +51,7 @@ func main() {
 		FirstName: "Ned",
 		LastName:  "Flanders",
 		Age:       40,
-		FavoritesThinks: []string{
+		FavoritesThings: []string{
 			"Church",
 			"Family",
 			"Walk",
@@ -61,8 +61,8 @@ func main() {
 	users := []user{u1, u2, u3}
 	for _, v := range users {
 		fmt.Println(v.FirstName, v.LastName, v.Age)
-		sort.Strings(v.FavoritesThinks)
-		for _, v := range v.FavoritesThinks {
+		sort.Strings(v.FavoritesThings)
+		for _, v := range v.FavoritesThings {
 			fmt.Println("\t", v)
 		}
 	}
@@ -72,7 +72,7 @@ func main() {
 	sort.Sort(SortAge(users))
 	for _, v := range users {
 		fmt.Println(v.FirstName, v.LastName, v.Age)
-		for _, v := range v.FavoritesThinks {
+		for _, v := range v.FavoritesThings {
 			fmt.Println("\t", v)
 		}
 	}
@@ -82,7 +82,7 @@ func main() {
 	sort.Sort(SortLastName(users))
 	for _, v := range users {
 		fmt.Println(v.FirstName, v.LastName, v.Age)
-		for _, v := range v.FavoritesThinks {
+		for _, v := range v.FavoritesThings {
 			fmt.Println("\t", v)
 		}
 	}

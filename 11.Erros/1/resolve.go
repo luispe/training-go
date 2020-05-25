@@ -9,14 +9,14 @@ import (
 type person struct {
 	FirstName       string
 	LastName        string
-	FavoritesThinks []string
+	FavoritesThings []string
 }
 
 func main() {
 	p1 := person{
 		FirstName:       "Homer",
 		LastName:        "Simpson",
-		FavoritesThinks: []string{"Beer", "Donuts", "Sofa"},
+		FavoritesThings: []string{"Beer", "Donuts", "Sofa"},
 	}
 
 	bs, err := json.Marshal(p1)

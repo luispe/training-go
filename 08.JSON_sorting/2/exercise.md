@@ -9,9 +9,9 @@ import (
 )
 
 func main() {
-	s := `[{"FirstName":"Homer","LastName":"Simpson","Age":42,"FavoritesThinks":["Donuts","Beer","Sofa"]},
-{"FirstName":"Barnie","LastName":"Gomez","Age":39,"FavoritesThinks":["Beer","Helicopter","Bar"]},
-{"FirstName":"Ned","LastName":"Flanders","Age":40,"FavoritesThinks":["Church","Family","Walk"]}]`
+	s := `[{"FirstName":"Homer","LastName":"Simpson","Age":42,"FavoritesThings":["Donuts","Beer","Sofa"]},
+{"FirstName":"Barnie","LastName":"Gomez","Age":39,"FavoritesThings":["Beer","Helicopter","Bar"]},
+{"FirstName":"Ned","LastName":"Flanders","Age":40,"FavoritesThings":["Church","Family","Walk"]}]`
 	fmt.Println(s)
 
 }

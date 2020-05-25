@@ -12,7 +12,7 @@ type user struct {
 	FirstName       string
 	LastName        string
 	Age             int
-	FavoritesThinks []string
+	FavoritesThings []string
 }
 
 func main() {
@@ -20,7 +20,7 @@ func main() {
 		FirstName: "Homer",
 		LastName:  "Simpson",
 		Age:       42,
-		FavoritesThinks: []string{
+		FavoritesThings: []string{
 			"Beer",
 			"Donuts",
 			"Sofa",
@@ -31,7 +31,7 @@ func main() {
 		FirstName: "Barnie",
 		LastName:  "Gomez",
 		Age:       39,
-		FavoritesThinks: []string{
+		FavoritesThings: []string{
 			"Beer",
 			"Helicopter",
 			"Bar",
@@ -42,7 +42,7 @@ func main() {
 		FirstName: "Ned",
 		LastName:  "Flanders",
 		Age:       40,
-		FavoritesThinks: []string{
+		FavoritesThings: []string{
 			"Church",
 			"Family",
 			"Walk",
@@ -60,5 +60,5 @@ func main() {
 1. Ordena el slice de user por:
     * Age
     * LastName
-2. Ordena el slice de string "FavoritesThinks" para cada user.
+2. Ordena el slice de string "FavoritesThings" para cada user.
     * Imprime todo de una manera agradable.
