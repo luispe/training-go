@@ -1,14 +1,30 @@
 ### Training go
-Training go is a training for go language.
 
-Level is easy and hard separate into different folders
+es 🇦🇷
 
-This repository based to:
+Los siguientes ejercicios son una guía para cualquier persona que quiera introducirse en la programación y específicamente
+con el lenguaje Golang (Go).
 
-[Medium Post](https://x-team.com/blog/go-crash-course-1/) & [Ellen Förbes](https://www.youtube.com/watch?v=WiGU_ZB-u0w&list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg)
+El orden no es azaroso sino que se basa en el libro gratuito y disponible tanto online como en PDF de:
 
-Follow me to receive updates sections complete 🤓
+[Caleb Doxsey -online book-](http://www.golang-book.com/books/intro/)
+ 
+[Caleb Doxsey -PDF book-](http://www.golang-book.com/public/pdf/gobook.3186517259.pdf) 
+
+Cualquier consulta podes escribirme por:
 
 [Twitter](https://twitter.com/luiyo11)
 
-[GitHub](https://github.com/)
+en 🇬🇧
+
+These exercises are a guide for any people that want introduce a programming specific for a language Golang (Go).
+
+These order it's based on the online book created by:
+
+[Caleb Doxsey -online book-](http://www.golang-book.com/books/intro/)
+ 
+[Caleb Doxsey -PDF book-](http://www.golang-book.com/public/pdf/gobook.3186517259.pdf)
+
+Write me if you have questions
+
+[Twitter](https://twitter.com/luiyo11)
