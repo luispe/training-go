@@ -13,7 +13,7 @@ El orden no es azaroso sino que se basa en el libro gratuito y disponible tanto 
 
 Cualquier consulta podes escribirme por:
 
-[Twitter](https://twitter.com/luiyo11)
+[Twitter](https://twitter.com/luispe84)
 
 en 🇬🇧
 
@@ -27,4 +27,4 @@ The order it's based on the online book created by:
 
 Write me if you have questions
 
-[Twitter](https://twitter.com/luiyo11)
+[Twitter](https://twitter.com/luispe84)
